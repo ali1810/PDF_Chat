@@ -52,11 +52,11 @@ def get_conversation_chain(vector_store):
     
     # OpenAI Model
 
-    llm = ChatOpenAI()
+    #llm = ChatOpenAI()
 
     # HuggingFace Model
 
-    # llm = HuggingFaceHub(repo_id="google/flan-t5-xxl", model_kwargs={"temperature":0.5, "max_length":512})
+    llm = HuggingFaceHub(repo_id="google/flan-t5-xxl", model_kwargs={"temperature":0.5, "max_length":512})
 
     memory = ConversationBufferMemory(memory_key='chat_history', return_messages=True)
 
