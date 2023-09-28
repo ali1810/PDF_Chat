@@ -20,7 +20,7 @@ To install and run the Langchain Chatbot, follow these steps:
 
 Clone the repository 
 ```
-git clone https://github.com/Abdullahw72/langchain-chatbot-multiple-PDF
+git clone https://github.com/ali1810/PDF_Chat
 ```
 
 Create a Virtual Environment
@@ -70,10 +70,6 @@ If you would like an easy-to-setup, completely private, and minimum hardware-com
 
 ## Sample Output
 
-![Chat Screenhot 1](https://github.com/Abdullahw72/langchain-chatbot-multiple-PDF/blob/master/Chat_Result.png?raw=true)
-
-
-![Chat Screenhot 1](https://github.com/Abdullahw72/langchain-chatbot-multiple-PDF/blob/master/Chat_Result-2.png?raw=true)
 
 
 ## Future Enhancements
@@ -83,10 +79,7 @@ If you would like an easy-to-setup, completely private, and minimum hardware-com
 - Improved error handling and user feedback.
 - Enhanced user interface and customization options.
 
-## Blog
-Check out my detailed blog on this project here: https://medium.com/@abdullahw72/langchain-chatbot-for-multiple-pdfs-harnessing-gpt-and-free-huggingface-llm-alternatives-9a106c239975
 
-## Contributing
 
 Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please submit a pull request or open an issue in the GitHub repository.
 
