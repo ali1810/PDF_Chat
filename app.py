@@ -38,11 +38,11 @@ def get_vector_store(text_chunks):
     
     # For OpenAI Embeddings
     
-    embeddings = OpenAIEmbeddings()
+    #embeddings = OpenAIEmbeddings()
     
     # For Huggingface Embeddings
 
-    # embeddings = HuggingFaceInstructEmbeddings(model_name = "hkunlp/instructor-xl")
+    embeddings = HuggingFaceInstructEmbeddings(model_name = "hkunlp/instructor-xl")
 
     vectorstore = FAISS.from_texts(texts = text_chunks, embedding = embeddings)
     
